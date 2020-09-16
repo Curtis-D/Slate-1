@@ -9,7 +9,7 @@
     min-height: auto;
     animation:none;
     transition:none;
-    cursor:default;
+    cursor:default; 
     .layout-eEMo5y {
       position:relative;
       height:100%;
@@ -19,7 +19,7 @@
         color:var(--text-normal);
         font-weight:var(--font-weight);
         height:100%;
-        cursor:default;
+        cursor:default; 
       }
       .flex-1xMQg5 {
         align-items:center;
@@ -28,7 +28,7 @@
         margin:0;
         padding:0;
         transition:none;
-        cursor:default;
+        cursor:default; 
         width:16px;
         height:16px;
         background:var(--text-muted);
@@ -48,7 +48,7 @@
       background:var(--text-normal);
     }
     &.recording-1H2dS7 {
-      border:1px solid var(--accent-solid);
+      border:1px solid var(--accent-solid); 
       box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
       button {
         -webkit-mask:url($icon_close) center/12px no-repeat;

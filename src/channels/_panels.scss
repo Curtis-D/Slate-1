@@ -12,7 +12,7 @@
 		border-top:1px solid var(--base-border);
 		position:absolute;
 	}
-
+  
 	// Buttons
 	button {
 		height: var(--avatar-size-sm);
@@ -50,12 +50,12 @@
 			}
 		}
   }
-
+  
 	// Activity
 	.activityPanel-28dQGo {
 		border-color: var(--base-border);
   }
-
+  
 	// Connected
 	.container-1giJp5 {
 		position: relative;
@@ -67,7 +67,7 @@
 	.channel-1TmDQ6 {
 		font-size: var(--font-size-sm);
   }
-
+  
 	// Connection status
 	.container-1giJp5 {
 		padding: var(--spacing);
@@ -113,7 +113,7 @@
 			border-radius: var(--border-radius) 0 0 var(--border-radius);
 			.contents-18-Yxp {
 				font-size: 0;
-				-webkit-mask: url($icon_pulse) center/cover no-repeat;
+				mask: url($icon_pulse) center/cover no-repeat;
 				background: var(--text-normal);
 				width: 16px;
 				height: 16px;
@@ -128,7 +128,7 @@
 			display: none;
 		}
   }
-
+  
 	// Share buttons
 	.actionButtons-14eAc_ {
 		position: absolute;
@@ -151,7 +151,7 @@
 			margin-right: 0;
 		}
   }
-
+  
 	// User
 	& > .container-3baos1 {
 		padding: 0 var(--spacing);

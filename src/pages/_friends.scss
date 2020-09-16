@@ -265,7 +265,7 @@
     .voiceSectionNoGuildImageWrapper-TicZR3 {
       width: var(--avatar-size);
       height: var(--avatar-size);
-      -webkit-mask: none;
+      mask: none;
       mask: none;
       border-radius: var(--border-radius);
     }
@@ -281,7 +281,6 @@
     .partyMember-1CzxeX {
       height: var(--avatar-size-sm) !important;
       width: var(--avatar-size-sm) !important;
-      -webkit-mask: none;
       mask: none;
     }
     .partyMemberOverflow-lXnzvu {
@@ -294,9 +293,9 @@
       box-shadow: inset 0 0 0 1px var(--base-border);
       border-radius: var(--border-radius);
     }
-
+    
     // Empty State Messages
-
+    
     .text-GwUZgS {
       color:var(--text-muted);
       font-size:var(--font-size);

@@ -165,6 +165,7 @@
       font-weight: 500;
       color: var(--text-muted);
       font-size: var(--font-size-sm);
+      justify-content:flex-start; 
       &.headerTagNoNickname-ENx6no {
         font-size: var(--font-size-md);
         justify-content: flex-start;
@@ -193,7 +194,7 @@
       }
     }
     .headerStreaming-2FjmGz {
-      background: rgba(var(--twitch), 0.1);
+      background: rgba(var(--status-purple), 0.1);
     }
     .avatarWrapper-3H_478 {
       grid-area: avatar;
@@ -201,9 +202,9 @@
     }
     .headerText-2sdzFM {
       grid-area: info;
-      flex: 1;
       margin-left: var(--spacing);
       display: block;
+      max-width: 80%;
       & > div {
         width: 100%;
         text-align: left;
@@ -211,18 +212,17 @@
       }
     }
     .headerNameWrapper-3res2c {
-      max-width: 90%;
       overflow: hidden;
       text-overflow: ellipsis;
       .headerName-fajvi9 {
         font-size: var(--font-size-md);
         white-space: nowrap;
         color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);
       }
     }
     .headerTagUsernameNoNickname-2_H881 {
       color: var(--text-focus);
-      width: 155px;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -307,7 +307,7 @@
     .headerSpotify-zpWxgT {
       margin-bottom: calc(var(--item-height) + 1px);
       .activityUserPopout-2yItg2 {
-        background: rgba(var(--spotify), 0.2);
+        background: rgba(var(--status-green), 0.2);
       }
     }
     .timeBarUserPopout-AWPFf2 {
@@ -336,7 +336,7 @@
     }
     .barInner-3NDaY_ {
       border-radius: 0;
-      background: rgba(var(--spotify), 0.5);
+      background: rgba(var(--status-green), 0.5);
     }
     .text-AOoUen {
       font-size: var(--font-size-sm);

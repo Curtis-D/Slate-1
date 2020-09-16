@@ -57,10 +57,10 @@
                             width:24px;
                             height:24px;
                             background:currentColor;
-                            -webkit-mask-size:contain;
-                            -webkit-mask-position:center;
-                            -webkit-mask-repeat:no-repeat;
-                            -webkit-mask-image:url($icon_cog);
+                            mask-size:contain;
+                            mask-position:center;
+                            mask-repeat:no-repeat;
+                            mask-image:url($icon_cog);
                         }
                         .itemText-sYKDFz {
                             font-weight:var(--font-weight-normal);
@@ -79,7 +79,7 @@
                               box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
                             }
                             &::before {
-                                -webkit-mask-image:url($icon_repo_clone)
+                                mask-image:url($icon_repo_clone)
                             }
                         }
                         &:not(:first-child) {
@@ -99,23 +99,23 @@
                         &:nth-last-child(2) {
                             margin:0;
                             &:before {
-                                -webkit-mask-image:url($icon_location);
+                                mask-image:url($icon_location);
                             }
                         }
                         &:nth-last-child(3)::before {
-                            -webkit-mask-image:url($icon_organization);
+                            mask-image:url($icon_organization);
                         }
                         &:nth-last-child(4)::before {
-                            -webkit-mask-image:url($icon_paintcan);
+                            mask-image:url($icon_paintcan);
                         }
                         &:nth-last-child(5)::before {
-                            -webkit-mask-image:url($icon_mortar-board);
+                            mask-image:url($icon_mortar-board);
                         }
                         &:nth-last-child(6)::before {
-                            -webkit-mask-image:url($icon_heart);
+                            mask-image:url($icon_heart);
                         }
                         &:nth-last-child(7)::before {
-                            -webkit-mask-image:url($icon_rocket);
+                            mask-image:url($icon_rocket);
                         }
                     }
                 }

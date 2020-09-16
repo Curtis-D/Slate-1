@@ -18,7 +18,7 @@
       max-width:100%;
 
       // Decroative Arrow
-      &:after {
+      &:after { 
         content: '';
         width: 10px;
         height: 10px;
@@ -54,7 +54,7 @@
         .statusItem-33LqPf {
           padding: 0;
           max-height: unset;
-          display: flex;
+          display: flex;  
           .status-1AY8sU[style="background-color: rgb(67, 181, 129);"] {
             background:rgb(var(--status-green)) !important;
           }
@@ -106,7 +106,7 @@
           }
           .customEmojiPlaceholder-37iZ_j {
             background: var(--text-normal);
-            -webkit-mask: url($icon_add) center/cover no-repeat;
+            mask: url($icon_add) center/cover no-repeat;
             margin: 0;
           }
           .clearStatusButton-1Mxs1q {
